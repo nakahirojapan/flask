@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+   
+
+ 
+<!-- テンプレートは変数を埋め込むことができる -->
+<p>{{user_info}}</p>
+
+<p>名前:{{user_info[0]}}</p>
+<p>年齢:{{user_info[1]}}</p>
+<p>自己紹介:{{user_info[2]}}</p>
+
+{% endblock %}
